@@ -1,5 +1,5 @@
 # Tutorial-Projekte
-Hier Folgen viele Source-Codes von Projekte die Programmiere das ganze gibts auch nochmal mal auf Youtube in Videos erklärt.
+Hier Folgen viele Source-Codes von Projekte die Ich programmiere das ganze gibts auch nochmal mal auf Youtube in Videos erklärt.
 
 
 Mein Youtube Kanal:
