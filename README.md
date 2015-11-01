@@ -1,5 +1,6 @@
 # Tutorial-Projekte
-In diesem Projekt zeige ich euch wie man ganz einfach eine IF Funktion in C++ erstellt.
+Hier Folgen viele Source-Codes von Projekte die Programmiere das ganze gibts auch nochmal mal auf Youtube in Videos erklärt.
+
 
 Mein Youtube Kanal:
 https://www.youtube.com/channel/UCkiAH8R0A8_S1xMKJFH-XvA
