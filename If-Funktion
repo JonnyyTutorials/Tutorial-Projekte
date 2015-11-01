@@ -1,0 +1,76 @@
+// If.cpp : Definiert den Einstiegspunkt für die Konsolenanwendung.
+// If-Funktion
+// JonnyyTutorials, 01.11.2015
+
+#include "stdafx.h"
+#include "iostream"
+
+using namespace std;
+
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	// Deklaration der Variabeln
+	int ro;
+	float zahl1;
+	float zahl2;
+	float ergebnis;
+
+	// Begrüßung
+	
+	cout << "---------------------" << endl;
+	cout << "-Multitaschenrechner-" << endl;
+	cout << "---------------------" << endl << endl << endl;
+	cout << "Willkommen beim Multitaschenrechner!" << endl;
+	cout << "Bitte Waehlen Sie ihre Rechenoperation aus!" << endl << endl;
+	cout << "[1] Addition" << endl;
+	cout << "[2] Subtraktion" << endl;
+	cout << "[3] Multiplikation" << endl;
+	cout << "[4] Division" << endl << endl;;
+	
+	// Eingabe der Rechenoperation
+
+	cin >> ro;
+	
+	// Eingabe der Zahlen
+
+	cout << "Bitte geben sie Ihre erste Zahl ein: ";
+	cin >> zahl1;
+	cout << "Bitte geben sie Ihre zweite Zahl ein: ";
+	cin >> zahl2;
+	
+
+	if (ro == 1)
+	{
+	ergebnis = zahl1 + zahl2;
+	cout << "Ihr Ergebnis lautet: " << ergebnis << endl;
+
+	}
+	
+	if (ro == 2)
+	{
+	ergebnis = zahl1 - zahl2;
+	cout << "Ihr Ergebnis lautet: " << ergebnis << endl;
+
+	}
+
+	if (ro == 3)
+	{
+	ergebnis = zahl1 * zahl2;
+	cout << "Ihr Ergebnis lautet: " << ergebnis << endl;
+
+	}
+	
+	if (ro == 4)
+	{
+	ergebnis = zahl1 / zahl2;
+	cout << "Ihr Ergebnis lautet: " << ergebnis << endl;
+
+	}
+	
+	
+	
+	system ("pause > NULL");
+	return 0;
+}
+
